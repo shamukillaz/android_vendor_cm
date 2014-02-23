@@ -140,6 +140,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniSwitch
 
+# ChameleonOS Screen recorder
+PRODUCT_PACKAGES += \
+    ScreenRecorder \
+    libscreenrecorder
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
