@@ -96,10 +96,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 
-# SELinux filesystem labels
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
-
 # CM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
@@ -152,10 +148,12 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
+    ORCAWallpapers \
     Apollo \
     CMFileManager \
     LockClock \
-    MonthCalendarWidget 
+    MonthCalendarWidget \
+    CMAccount
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -228,8 +226,8 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 4
-PRODUCT_VERSION_MINOR = 1
-PRODUCT_VERSION_MAINTENANCE = 0-RC5
+PRODUCT_VERSION_MINOR = 2
+PRODUCT_VERSION_MAINTENANCE = 0-RC7
 
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
