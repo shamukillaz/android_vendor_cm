@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     LockClock \
+    PerformanceControl \
     MonthCalendarWidget \
     CMAccount
 
@@ -226,8 +227,8 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 4
-PRODUCT_VERSION_MINOR = 2
-PRODUCT_VERSION_MAINTENANCE = 0-RC7
+PRODUCT_VERSION_MINOR = 3
+PRODUCT_VERSION_MAINTENANCE = 1-EXP
 
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
