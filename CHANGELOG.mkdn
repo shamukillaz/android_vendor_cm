@@ -1,4 +1,4 @@
-Orca 4+
+Orca Project
 ===============
 
 Visit https://orcaproject.co for more information.
@@ -9,6 +9,46 @@ Full changelog at https://orcaproject.co
 
 CHANGELOG (notable new features)
 ---------
+
+### 5 EXP 6/19
+* Common: Android 4.4.4 r1 (Google)
+* Orca 5 Common
+
+### 5 EXPERIMENTAL 6/15
+* Common: Android 4.4.3 (Google)
+* CM-11.0 and AOSP Based
+* Theme Manager Overhaulled
+* Removed Halo for PA HOVER
+* PIE
+* Peek
+* OmniSwitch Removed
+* Protected Apps
+* Update Quicktiles
+* Quicktiles Small Fix
+* Much More
+
+### 4.3 EXPERIMENTAL 5/31
+* Common: Android 4.4.2 r2 (Google)
+* CM-11.0 and AOSP Based
+* Theme Manager Overhaulled and Updated
+* Updated Functions
+* Bringing more secure functions
+* Experimental build
+* OmniSwitch Removed
+* Carrier Text Removed For Current Time
+* Notification Peek
+* App Bar
+* Gesture Anywhere
+* Much More
+
+### 4.3 EXPERIMENTAL SECURE ORCA
+* Common: Android 4.4.2 r2 (Google)
+* CM-11.0 and AOSP Based
+* Theme Manager
+* Updated Functions
+* Bringing more secure functions
+* Experimental build
+* New Devices Supported More Soon
 
 ### 4.2 EXPERIMENTAL RC-7
 * Common: Android 4.4.2 r2 (Google)

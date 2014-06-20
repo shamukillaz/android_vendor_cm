@@ -132,10 +132,6 @@ PRODUCT_PACKAGES += \
     Basic \
     libemoji
 
-# Omni switch
-PRODUCT_PACKAGES += \
-    OmniSwitch
-
 # ChameleonOS Screen recorder
 PRODUCT_PACKAGES += \
     ScreenRecorder \
@@ -149,6 +145,7 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf \
     ORCAWallpapers \
+    CMHome \
     Apollo \
     CMFileManager \
     LockClock \
@@ -226,8 +223,8 @@ endif
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION_MAJOR = 4
-PRODUCT_VERSION_MINOR = 3
+PRODUCT_VERSION_MAJOR = 5
+PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 1-EXP
 
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
