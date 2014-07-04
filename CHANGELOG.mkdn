@@ -10,9 +10,32 @@ Full changelog at https://orcaproject.co
 CHANGELOG (notable new features)
 ---------
 
+### 5 7/1
+* Common: Android 4.4.4 r1 (Google)
+* Orca 5 Common
+* Updated Settings
+* Updated Stability
+* Settings Rearranged and Fixed
+* Some new features added
+
+### 5 EXP 6/25
+* Common: Android 4.4.4 r1 (Google)
+* Orca 5 Common
+* Halo is Back
+* Updates to Settings 
+* Pie updates
+* Recents Updates
+* Notifications and Hover updates
+* Extra Display Settings
+* CM ThemeStore Added
+* GreatFreedom Theme Removed For Space (Download from ThemeStore)
+* Many More Features Updated and Added
+
 ### 5 EXP 6/19
 * Common: Android 4.4.4 r1 (Google)
 * Orca 5 Common
+* Theme Mananger Updated
+* CMHome
 
 ### 5 EXPERIMENTAL 6/15
 * Common: Android 4.4.3 (Google)
