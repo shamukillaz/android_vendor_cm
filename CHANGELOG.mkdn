@@ -10,6 +10,22 @@ Full changelog at https://orcaproject.co
 CHANGELOG (notable new features)
 ---------
 
+### 5 M1
+* Common: Android 4.4.4 (Google)
+* Common: Orca 5 Features
+* Common: Fix VPN issues related to 4.4.3 merge
+* Common: Enable 'Heads Up' notification mode (Settings > Notifications)
+* Settings: 'Interface' replaced by 'Status Bar', 'Notification Drawer', and 'Gestures'
+* Settings: Moved 'Expanded Desktop' to 'Display'
+* Settings: Moved all lock screen related items to 'Lock Screen' and removed duplicates from 'Security'
+* Settings: Moved 'Navigation Bar' layout control to 'Buttons'
+* Trebuchet: Custom Homescreen grid size
+* Trebuchet: Add Protected Apps feature
+* Trebuchet: Add Search Panel (Google Now) option
+* WhisperPush: No longer ignores 'Blacklist'
+* Futex: Protect against Towelroot
+* Various small bugfixes, global and device-specific
+
 ### 5 7/1
 * Common: Android 4.4.4 r1 (Google)
 * Orca 5 Common
