@@ -233,9 +233,9 @@ endif
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION_MAJOR = 11
-PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE = 0-RC0
+PRODUCT_VERSION_MAJOR = 5
+PRODUCT_VERSION_MINOR = 1
+PRODUCT_VERSION_MAINTENANCE = 2
 
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
@@ -304,10 +304,9 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.cm.version=$(CM_VERSION) \
-  ro.cm.releasetype=$(CM_BUILDTYPE) \
+  ro.orca.version=$(CM_VERSION) \
+  ro.orca.releasetype=$(CM_BUILDTYPE) \
   ro.modversion=$(CM_VERSION) \
-  ro.cmlegal.url=http://www.cyanogenmod.org/docs/privacy
 
 -include vendor/cm-priv/keys/keys.mk
 
@@ -336,7 +335,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.cm.display.version=$(CM_DISPLAY_VERSION)
+  ro.orca.display.version=$(CM_DISPLAY_VERSION)
 
 # disable multithreaded dextop for RELEASE and SNAPSHOT builds
 ifneq ($(filter RELEASE SNAPSHOT,$(CM_BUILDTYPE)),)
